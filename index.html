@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avni Gupta | B.Tech Undergrad & Aspiring Developer</title>
+  <meta name="description" content="Personal portfolio of Avni Gupta, B.Tech student at Newton School of Technology, Rishihood University. Passionate about coding, music, and learning.">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Ambient Glow Background Blobs -->
+  <div class="blob-container" aria-hidden="true">
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+    <div class="glow-blob blob-3"></div>
+    <div class="glow-blob blob-4"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-badge">AG</span>
+        <span class="logo-text">Avni<span class="dot">.</span>dev</span>
+      </a>
+
+      <!-- CSS-only mobile hamburger trigger -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#learning" class="nav-link">Learning</a></li>
+          <li><a href="#passions" class="nav-link">Passions</a></li>
+          <li><a href="#aspirations" class="nav-link">Goals</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-nav">Say Hello 👋</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-chip">
+            <span class="pulse-dot"></span>
+            <span>Eager to Learn &amp; Build The Future</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Avni Gupta</span>
+            <span class="wave-emoji" aria-hidden="true">👋</span>
+          </h1>
+
+          <p class="hero-tagline">
+            B.Tech Undergrad at <strong>Newton School of Technology</strong>, Rishihood University &bull; 
+            Tech Explorer &bull; Singing &amp; Music Lover 🎶
+          </p>
+
+          <p class="hero-desc">
+            I'm at the very beginning of my coding journey, stepping into the fascinating world of technology with open curiosity, genuine enthusiasm, and a drive to learn skills that make a difference.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">
+              <span>Let's Connect</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-secondary">
+              <span>Discover My Story</span>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Pills -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">🎓</span>
+              <div>
+                <strong>B.Tech Techie</strong>
+                <span>NST, Sonipat</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🌱</span>
+              <div>
+                <strong>Beginner Mindset</strong>
+                <span>Hungry to Grow</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🎤</span>
+              <div>
+                <strong>Melody &amp; Code</strong>
+                <span>Singing Enthusiast</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Showcase -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-backdrop-glow"></div>
+            
+            <div class="avatar-card">
+              <div class="avatar-circle-ring">
+                <div class="avatar-circle">
+                  <!-- Stylized Illustration Placeholder / Initials Avatar -->
+                  <div class="avatar-inner">
+                    <span class="avatar-monogram">AG</span>
+                    <span class="avatar-sparkle sparkle-1">✨</span>
+                    <span class="avatar-sparkle sparkle-2">🌸</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="avatar-card-info">
+                <h3 class="avatar-card-name">Avni Gupta</h3>
+                <p class="avatar-card-role">Future Software Engineer</p>
+                <div class="card-status-badge">
+                  <span class="badge-dot"></span> Coding &bull; Exploring &bull; Creating
+                </div>
+              </div>
+
+              <!-- Floating mini widgets around avatar -->
+              <div class="floating-badge badge-music">
+                <span class="badge-icon">🎧</span>
+                <div class="badge-details">
+                  <span class="badge-label">Vibing To</span>
+                  <span class="badge-value">Soulful Melodies 🎶</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-code">
+                <span class="badge-icon">&lt;/&gt;</span>
+                <div class="badge-details">
+                  <span class="badge-label">Current Focus</span>
+                  <span class="badge-value">HTML &amp; CSS Mastery</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-location">
+                <span class="badge-icon">📍</span>
+                <span class="badge-value">Sonipat, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">Embracing The Joy of <span class="gradient-text">New Beginnings</span></h2>
+          <p class="section-subtitle">
+            Every great developer was once someone who wrote their very first line of code. Here's a glimpse into who I am and what fuels me.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Card -->
+          <div class="glass-card about-story-card">
+            <div class="card-icon-header">
+              <span class="icon-bubble">✨</span>
+              <span class="card-badge">My Journey</span>
+            </div>
+            <h3 class="story-title">Curiosity, Dedication &amp; A Big Heart for Tech</h3>
+            <p class="story-text">
+              Hi! I'm <strong>Avni Gupta</strong>, currently pursuing my B.Tech degree at <strong>Newton School of Technology</strong>, under <strong>Rishihood University, Sonipat</strong>.
+            </p>
+            <p class="story-text">
+              I am at the very start of my programming adventure. While I haven't built large projects yet, I embrace being a beginner with open arms. To me, having a clean slate means infinite potential to learn, explore modern technologies, and build solutions with fresh eyes.
+            </p>
+            <p class="story-text">
+              I believe consistent curiosity beats perfection. With every concept I explore—from web development fundamentals to computational problem-solving—I find joy in discovering how things work beneath the surface.
+            </p>
+
+            <blockquote class="about-quote">
+              <span class="quote-mark">“</span>
+              <span>It is not about knowing everything today; it's about being passionate enough to learn what is needed tomorrow.</span>
+            </blockquote>
+          </div>
+
+          <!-- Feature Cards Column -->
+          <div class="about-pillars">
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box gradient-bg-1">
+                <span>🌱</span>
+              </div>
+              <div class="pillar-content">
+                <h4>Eager Learner</h4>
+                <p>Curious about software development, web technologies, and how digital experiences are crafted.</p>
+              </div>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box gradient-bg-2">
+                <span>🎤</span>
+              </div>
+              <div class="pillar-content">
+                <h4>Singing &amp; Music</h4>
+                <p>Passionate about vocal harmonies and rhythms. Music keeps me inspired, creative, and focused.</p>
+              </div>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box gradient-bg-3">
+                <span>🎯</span>
+              </div>
+              <div class="pillar-content">
+                <h4>Growth Focused</h4>
+                <p>Excited to gain hands-on experience, collaborate with peers, and grow into a skilled technologist.</p>
+              </div>
+            </div>
+
+            <div class="glass-card pillar-card">
+              <div class="pillar-icon-box gradient-bg-4">
+                <span>🤝</span>
+              </div>
+              <div class="pillar-content">
+                <h4>Empathetic Mindset</h4>
+                <p>Valuing kindness, team collaboration, and constant self-improvement both inside and outside the classroom.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">Where My Tech Journey <span class="gradient-text">Takes Root</span></h2>
+          <p class="section-subtitle">
+            Building strong technical foundations at one of India's forward-looking technology institutions.
+          </p>
+        </div>
+
+        <div class="education-showcase">
+          <div class="glass-card education-card">
+            <div class="edu-card-top">
+              <div class="edu-institution-info">
+                <span class="edu-flag">🎓 Current Academic Pursuit</span>
+                <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                <h4 class="edu-school">Newton School of Technology</h4>
+                <p class="edu-university">Under Rishihood University &bull; Sonipat, Haryana, India</p>
+              </div>
+              <div class="edu-years-badge">
+                <span>In Progress</span>
+              </div>
+            </div>
+
+            <div class="edu-divider"></div>
+
+            <div class="edu-highlights-grid">
+              <div class="edu-detail-box">
+                <span class="detail-icon">💻</span>
+                <h5>Hands-on Curriculum</h5>
+                <p>Immersed in modern computer science, coding principles, and technology trends from day one.</p>
+              </div>
+
+              <div class="edu-detail-box">
+                <span class="detail-icon">👥</span>
+                <h5>Vibrant Peer Community</h5>
+                <p>Collaborating with driven peers, learning together, and solving coding problems side-by-side.</p>
+              </div>
+
+              <div class="edu-detail-box">
+                <span class="detail-icon">🚀</span>
+                <h5>Industry-Ready Vision</h5>
+                <p>Focused on real-world practical exposure, project-based learning, and continuous skill updates.</p>
+              </div>
+            </div>
+
+            <div class="edu-tags">
+              <span class="edu-tag">Computer Science</span>
+              <span class="edu-tag">Problem Solving</span>
+              <span class="edu-tag">Web Fundamentals</span>
+              <span class="edu-tag">Computational Logic</span>
+              <span class="edu-tag">Collaborative Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning & Skills Section -->
+    <section id="learning" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Roadmap &amp; Skills</span>
+          <h2 class="section-title">Skills I'm <span class="gradient-text">Cultivating &amp; Exploring</span></h2>
+          <p class="section-subtitle">
+            As a beginner, here is my active skill tree—the technologies and abilities I am actively diving into.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: Web Fundamentals -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-cyan">🌐</div>
+              <div>
+                <span class="skill-level-badge level-learning">Actively Learning</span>
+                <h3 class="skill-category">Frontend &amp; Web Basics</h3>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Understanding the structure and styling that make the web come alive.
+            </p>
+            <ul class="skill-items-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>HTML5 (Semantic Web)</span>
+                  <span class="skill-pct">Building Blocks</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-html"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>CSS3 (Flexbox, Grid, Animations)</span>
+                  <span class="skill-pct">Styling &amp; Design</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-css"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Responsive Web Design</span>
+                  <span class="skill-pct">Mobile First</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-responsive"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 2: Programming Fundamentals -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-purple">⚡</div>
+              <div>
+                <span class="skill-level-badge level-exploring">Exploring</span>
+                <h3 class="skill-category">Programming &amp; Logic</h3>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Laying down the mental models for algorithms, data handling, and syntax.
+            </p>
+            <ul class="skill-items-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>Python Basics</span>
+                  <span class="skill-pct">Foundations</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-python"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Algorithmic Thinking</span>
+                  <span class="skill-pct">Problem Solving</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-logic"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Data Structures Concepts</span>
+                  <span class="skill-pct">Next Up</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-dsa"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 3: Developer Tools -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-pink">🛠️</div>
+              <div>
+                <span class="skill-level-badge level-learning">Practicing</span>
+                <h3 class="skill-category">Developer Essentials</h3>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              Familiarizing myself with the tools engineers use day in and day out.
+            </p>
+            <ul class="skill-items-list">
+              <li>
+                <div class="skill-name-row">
+                  <span>VS Code &amp; Editors</span>
+                  <span class="skill-pct">Daily Driver</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-vscode"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Git &amp; Version Control</span>
+                  <span class="skill-pct">Practicing</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-git"></div></div>
+              </li>
+              <li>
+                <div class="skill-name-row">
+                  <span>Terminal &amp; Command Line</span>
+                  <span class="skill-pct">Navigating</span>
+                </div>
+                <div class="progress-bar"><div class="progress-fill fill-cli"></div></div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Skill Card 4: Soft Skills & Creativity -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap icon-amber">🌟</div>
+              <div>
+                <span class="skill-level-badge level-strength">Natural Strengths</span>
+                <h3 class="skill-category">Creative &amp; Interpersonal</h3>
+              </div>
+            </div>
+            <p class="skill-card-desc">
+              The human qualities that complement technical prowess and team success.
+            </p>
+            <div class="soft-skills-cloud">
+              <span class="soft-tag">Active Listening</span>
+              <span class="soft-tag">Musical Creativity</span>
+              <span class="soft-tag">Curiosity</span>
+              <span class="soft-tag">Adaptability</span>
+              <span class="soft-tag">Empathy</span>
+              <span class="soft-tag">Dedication</span>
+              <span class="soft-tag">Positive Attitude</span>
+              <span class="soft-tag">Team Spirit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Passions & Hobbies: Music & Singing -->
+    <section id="passions" class="section passions-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Beyond Academics</span>
+          <h2 class="section-title">Music, Singing &amp; <span class="gradient-text">Creative Harmony</span></h2>
+          <p class="section-subtitle">
+            When I'm not studying or coding, you will find me immersed in melodies. Music is my safe space and greatest spark of inspiration.
+          </p>
+        </div>
+
+        <div class="passions-grid">
+          <!-- Singing & Melody Showcase -->
+          <div class="glass-card passion-feature-card">
+            <div class="passion-visual-box">
+              <div class="vinyl-record">
+                <div class="vinyl-grooves"></div>
+                <div class="vinyl-center">
+                  <span class="vinyl-icon">🎵</span>
+                </div>
+              </div>
+              <div class="sound-wave-bars" aria-hidden="true">
+                <span class="bar bar-1"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar bar-3"></span>
+                <span class="bar bar-4"></span>
+                <span class="bar bar-5"></span>
+                <span class="bar bar-6"></span>
+                <span class="bar bar-7"></span>
+              </div>
+            </div>
+
+            <div class="passion-details">
+              <span class="passion-tag">My Superpower</span>
+              <h3 class="passion-title">Singing From The Heart</h3>
+              <p class="passion-desc">
+                Singing allows me to express emotions that words alone cannot capture. Whether it's humming along to soft acoustic tunes or practicing vocal notes, music brings calm, joy, and rhythm into my daily routine.
+              </p>
+
+              <div class="passion-perks">
+                <div class="perk-item">
+                  <span class="perk-bullet">🎶</span>
+                  <div>
+                    <strong>Focus &amp; Flow</strong>
+                    <p>Music primes my mind for deep learning and creative problem-solving.</p>
+                  </div>
+                </div>
+                <div class="perk-item">
+                  <span class="perk-bullet">✨</span>
+                  <div>
+                    <strong>Emotional Expression</strong>
+                    <p>Singing is therapeutic, refreshing my spirit after intensive study sessions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Music Player Card Mockup (Pure CSS) -->
+          <div class="glass-card music-player-card">
+            <div class="player-header">
+              <span class="player-label">AVNI'S CURRENT PLAYLIST</span>
+              <span class="live-indicator"><span class="live-dot"></span> On Repeat</span>
+            </div>
+
+            <div class="player-artwork">
+              <div class="album-art-inner">
+                <span class="album-emoji">🎧</span>
+                <span class="note-float n1">♪</span>
+                <span class="note-float n2">♫</span>
+                <span class="note-float n3">♩</span>
+              </div>
+            </div>
+
+            <div class="track-meta">
+              <h4 class="track-title">Soulful Acoustic &amp; Lofi Vibes</h4>
+              <p class="track-artist">Avni's Daily Favorites</p>
+            </div>
+
+            <!-- CSS Player Controls Graphic -->
+            <div class="player-progress-wrap">
+              <div class="player-progress-bar">
+                <div class="player-progress-current"></div>
+              </div>
+              <div class="player-times">
+                <span>1:28</span>
+                <span>3:45</span>
+              </div>
+            </div>
+
+            <div class="player-controls">
+              <span class="ctrl-btn" title="Previous Track">&#9198;</span>
+              <span class="ctrl-btn play-btn" title="Play / Pause">&#9654;</span>
+              <span class="ctrl-btn" title="Next Track">&#9197;</span>
+            </div>
+
+            <div class="player-genres">
+              <span class="genre-chip">Acoustic</span>
+              <span class="genre-chip">Bollywood Melodies</span>
+              <span class="genre-chip">Chillpop</span>
+              <span class="genre-chip">Indie</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aspirations & Roadmap -->
+    <section id="aspirations" class="section aspirations-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Looking Forward</span>
+          <h2 class="section-title">Milestones on My <span class="gradient-text">Horizon</span></h2>
+          <p class="section-subtitle">
+            What lies ahead in my college years and coding journey. Every dream starts with actionable intentions.
+          </p>
+        </div>
+
+        <div class="aspirations-grid">
+          <div class="glass-card milestone-card">
+            <div class="milestone-number">01</div>
+            <div class="milestone-icon">💻</div>
+            <h3 class="milestone-title">Building First Projects</h3>
+            <p class="milestone-desc">
+              Moving from coding tutorials to crafting live, useful web applications and tools that solve practical problems.
+            </p>
+            <span class="milestone-status status-target">Immediate Goal</span>
+          </div>
+
+          <div class="glass-card milestone-card">
+            <div class="milestone-number">02</div>
+            <div class="milestone-icon">🏆</div>
+            <h3 class="milestone-title">Hackathons &amp; Teamwork</h3>
+            <p class="milestone-desc">
+              Collaborating in student hackathons, ideating with creative peers, and building under pressure to sharpen team synergy.
+            </p>
+            <span class="milestone-status status-upcoming">Upcoming</span>
+          </div>
+
+          <div class="glass-card milestone-card">
+            <div class="milestone-number">03</div>
+            <div class="milestone-icon">💼</div>
+            <h3 class="milestone-title">Internships &amp; Real Work</h3>
+            <p class="milestone-desc">
+              Gaining industry exposure through internships, learning professional engineering standards, and receiving mentorship.
+            </p>
+            <span class="milestone-status status-future">Future Milestone</span>
+          </div>
+
+          <div class="glass-card milestone-card">
+            <div class="milestone-number">04</div>
+            <div class="milestone-icon">🌟</div>
+            <h3 class="milestone-title">Personal &amp; Creative Growth</h3>
+            <p class="milestone-desc">
+              Becoming a confident, well-rounded individual who blends analytical software mastery with musical, artistic expression.
+            </p>
+            <span class="milestone-status status-ongoing">Lifelong Journey</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Connect &amp; <span class="gradient-text">Grow Together</span></h2>
+          <p class="section-subtitle">
+            Whether you are a fellow student, mentor, developer, or music lover, my inbox is always open!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column">
+            <div class="glass-card contact-channel-card">
+              <div class="contact-icon-box gradient-bg-1">
+                <span>📧</span>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">Email Me</span>
+                <a href="mailto:avni.gupta@nst.rishihood.edu.in" class="contact-channel-value">
+                  avni.gupta@nst.rishihood.edu.in
+                </a>
+              </div>
+            </div>
+
+            <div class="glass-card contact-channel-card">
+              <div class="contact-icon-box gradient-bg-2">
+                <span>🏛️</span>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">College Campus</span>
+                <span class="contact-channel-value">Newton School of Technology, Sonipat</span>
+              </div>
+            </div>
+
+            <div class="glass-card contact-channel-card">
+              <div class="contact-icon-box gradient-bg-3">
+                <span>💼</span>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">LinkedIn</span>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-channel-value">
+                  linkedin.com/in/avni-gupta
+                </a>
+              </div>
+            </div>
+
+            <div class="glass-card contact-channel-card">
+              <div class="contact-icon-box gradient-bg-4">
+                <span>🐱</span>
+              </div>
+              <div class="contact-channel-details">
+                <span class="contact-channel-label">GitHub</span>
+                <a href="https://github.com" target="_blank" rel="noopener" class="contact-channel-value">
+                  github.com/avni-gupta
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pure CSS Contact Form -->
+          <div class="glass-card contact-form-card">
+            <h3 class="form-title">Send A Quick Message 💌</h3>
+            <p class="form-desc">Have a study tip, music recommendation, or just want to say hi? Drop a note below!</p>
+            
+            <form class="contact-form" action="mailto:avni.gupta@nst.rishihood.edu.in" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Priyanshu Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="e.g. priyanshu@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Study Buddies / Hello!" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea id="message" name="message" rows="4" class="form-input form-textarea" placeholder="Write your warm note or music recommendation here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message</span>
+                <span class="btn-arrow">↗</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-badge">AG</span>
+          <span class="logo-text">Avni Gupta</span>
+        </div>
+        <p class="footer-quote">
+          “Dream big, start small, learn every single day.” ✨
+        </p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle" aria-label="LinkedIn">in</a>
+          <a href="https://github.com" target="_blank" rel="noopener" class="social-circle" aria-label="GitHub">gh</a>
+          <a href="mailto:avni.gupta@nst.rishihood.edu.in" class="social-circle" aria-label="Email">✉</a>
+          <a href="#passions" class="social-circle" aria-label="Music">🎵</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Avni Gupta. Crafted with passion using pure <strong>HTML &amp; CSS</strong>.</p>
+        <a href="#hero" class="back-to-top" title="Back to top">
+          Back to Top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
